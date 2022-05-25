@@ -1,5 +1,5 @@
 const queryString = window.location.search;
-window.alert("hi");
+window.alert(queryString);
 
 let speech = new SpeechSynthesisUtterance();
 speech.lang = "en";
