@@ -1,8 +1,7 @@
-const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
+const urlParams = new URLSearchParams(window.location.search);
 
 //str becomes user input
-let str = urlParams.get('input');
+let str = urlParams;
 document.getElementById("input").innerHTML = str;
 
 //new speech object
